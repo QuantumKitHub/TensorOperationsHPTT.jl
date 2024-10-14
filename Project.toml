@@ -3,7 +3,17 @@ uuid = "3ed4d2ea-4186-4b81-9016-b2bed8d5e22d"
 authors = ["Jutho Haegeman <jutho.haegeman@ugent.be> and contributors"]
 version = "0.1.0"
 
+[deps]
+HPTT_jll = "0d2ef6bb-bd72-5e2e-be6b-e06c14f6a480"
+StridedViews = "4db3bf67-4bd7-4b4e-b153-31dc3fb37143"
+TensorOperations = "6aa20fa7-93e2-5fca-9bc0-fbd0db3c71a2"
+TupleTools = "9d95972d-f1c8-5527-a6e0-b4b365fa01f6"
+
 [compat]
+HPTT_jll = "1"
+StridedViews = "0.3"
+TensorOperations = "5"
+TupleTools = "1.1"
 julia = "1.8"
 
 [extras]
